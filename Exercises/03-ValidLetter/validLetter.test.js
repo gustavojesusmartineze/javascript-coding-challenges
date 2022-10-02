@@ -59,3 +59,43 @@ test('can check for invalid Letter due opening {', () => {
 
   expect(result).toBe(expected);
 });
+
+test('can check for invalid Letter due gift outside ()', () => {
+  const letter = '() bike';
+
+  const expected = false;
+
+  const result = isValidLetter(letter);
+
+  expect(result).toBe(expected);
+});
+
+test('can check for invalid Letter due gift outside (())', () => {
+  const letter = '(()) bike';
+
+  const expected = false;
+
+  const result = isValidLetter(letter);
+
+  expect(result).toBe(expected);
+});
+
+test('can check for invalid Letter due gift outside (()', () => {
+  const letter = '(a() bike (a)';
+
+  const expected = false;
+
+  const result = isValidLetter(letter);
+
+  expect(result).toBe(expected);
+});
+
+test('can check for invalid Letter due gift outside ) (', () => {
+  const letter = ')bici( casa play';
+
+  const expected = false;
+
+  const result = isValidLetter(letter);
+
+  expect(result).toBe(expected);
+});
