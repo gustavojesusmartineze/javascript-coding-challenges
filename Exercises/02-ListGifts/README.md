@@ -1,6 +1,6 @@
 
 
-# Sheep Counter
+# List Gifts
 ## Introduction
 You have received a letter ✉️ with all the gifts you must prepare. The issue is that it is a text string and it is very difficult to read 😱. Luckily they have put each gift separated by space! (**Although be careful**, because being children, they have still sneaked more spaces than necessary)
 
