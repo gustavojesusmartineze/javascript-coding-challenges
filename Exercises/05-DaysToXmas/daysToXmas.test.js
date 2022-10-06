@@ -39,3 +39,53 @@ test('should return 5 days to xmas', () => {
 
   expect(result).toBe(expected);
 });
+
+test('should return 0 days to xmas', () => {
+  const input = new Date('Dec 25, 2021');
+
+  const expected = 0;
+
+  const result = daysToXmas(input);
+
+  expect(result).toBe(expected);
+});
+
+test('should return 0 days to xmas', () => {
+  const input = new Date('Dec 26, 2021');
+
+  const expected = -1;
+
+  const result = daysToXmas(input);
+
+  expect(result).toBe(expected);
+});
+
+test('should return -6 days to xmas', () => {
+  const input = new Date('Dec 31, 2021');
+
+  const expected = -6;
+
+  const result = daysToXmas(input);
+
+  expect(result).toBe(expected);
+});
+
+test('should return -7 days to xmas', () => {
+  const input = new Date('Jan 1, 2022 00:00:01');
+
+  const expected = -7;
+
+  const result = daysToXmas(input);
+
+  expect(result).toBe(expected);
+});
+
+test('should return -7 days to xmas for full format', () => {
+  const input = new Date('Jan 1, 2022 23:59:59');
+
+  const expected = -7;
+
+  const result = daysToXmas(input);
+
+  expect(result).toBe(expected);
+});
