@@ -33,3 +33,25 @@ test('should return [2, 2]', () => {
 
   expect(result).toStrictEqual(expected);
 });
+
+test('should return [6, 2]', () => {
+  const numbers =  [6, 7, 1, 2];
+  const sum =  8;
+
+  const expected = [6, 2];
+
+  const result = sumPairs(numbers, sum);
+
+  expect(result).toStrictEqual(expected);
+});
+
+test('should return [1, 5]', () => {
+  const numbers =  [0, 2, 2, 3, -1, 1, 5];
+  const sum =  6;
+
+  const expected = [1, 5];
+
+  const result = sumPairs(numbers, sum);
+
+  expect(result).toStrictEqual(expected);
+});
