@@ -15,6 +15,8 @@ I'll try to add at least one every week.
 - [04-CreateXmasTree](/Exercises/04-CreateXmasTree/)
 - [05-DaysToXmas](/Exercises/05-DaysToXmas/)
 - [06-SumPairs](/Exercises/06-SumPairs/)
+- [07-Warehouse](/Exercises/07-Warehouse/)
+- [08-MaxProfit](/Exercises/08-MaxProfit/)
 
 
 **Tests**
