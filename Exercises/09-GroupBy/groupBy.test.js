@@ -30,3 +30,31 @@ test('should return age', () => {
 
   expect(result).toStrictEqual(expected);
 });
+
+test('should return timestamp', () => {
+  const collection = [1397639141184, 1363223700000];
+  const it = timestamp => new Date(timestamp).getFullYear();
+  const expected = { 2013: [1363223700000], 2014: [1397639141184] };
+  
+  const result = groupBy(collection, it);
+
+  expect(result).toStrictEqual(expected);
+});
+
+test('should return timestamp', () => {
+  const collection = [
+    { title: 'JavaScript: The Good Parts', rating: 8 },
+    { title: 'Aprendiendo Git', rating: 10 },
+    { title: 'Clean Code', rating: 9 },
+  ];
+  const it = 'rating';
+  const expected = {
+    8: [{ title: 'JavaScript: The Good Parts', rating: 8 }],
+    9: [{ title: 'Clean Code', rating: 9 }],
+    10: [{ title: 'Aprendiendo Git', rating: 10 }] 
+  };
+  
+  const result = groupBy(collection, it);
+
+  expect(result).toStrictEqual(expected);
+});
