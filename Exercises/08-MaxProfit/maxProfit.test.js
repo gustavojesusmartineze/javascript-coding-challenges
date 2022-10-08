@@ -18,3 +18,21 @@ test('should return 60', () => {
 
   expect(result).toBe(expected);
 });
+
+test('should return -1', () => {
+  const input = [18, 15, 12, 11, 9, 7];
+  const expected = -1; // -> -1 (no profit)
+
+  const result = maxProfit(input);
+
+  expect(result).toBe(expected);
+});
+
+test('should return -1 due no profit', () => {
+  const input = [3, 3, 3, 3, 3];
+  const expected = -1; // -> -1 (no profit)
+
+  const result = maxProfit(input);
+
+  expect(result).toBe(expected);
+});
