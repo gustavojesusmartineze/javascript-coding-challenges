@@ -17,6 +17,8 @@ I'll try to add at least one every week.
 - [06-SumPairs](/Exercises/06-SumPairs/)
 - [07-Warehouse](/Exercises/07-Warehouse/)
 - [08-MaxProfit](/Exercises/08-MaxProfit/)
+- [09-GroupBy](/Exercises/09-GroupBy/)
+- [10-GetCoins](/Exercises/10-GetCoins/)
 
 
 **Tests**
