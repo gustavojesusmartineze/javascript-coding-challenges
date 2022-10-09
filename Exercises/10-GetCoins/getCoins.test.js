@@ -31,3 +31,22 @@ test('should return change for 5', () => {
   expect(result).toStrictEqual(expected);
 });
 
+test('should return change for 5', () => {
+  const input = 16;
+  // a 1 cent coin, a 5 cent coin and a 10 cent coin
+  const expected = [1, 0, 1, 1, 0, 0]; 
+  
+  const result = getCoins(input);
+
+  expect(result).toStrictEqual(expected);
+});
+
+test('should return change for 5', () => {
+  const input = 100;
+  // two 50 cent coins
+  const expected = [0, 0, 0, 0, 0, 2]; 
+  
+  const result = getCoins(input);
+
+  expect(result).toStrictEqual(expected);
+});
