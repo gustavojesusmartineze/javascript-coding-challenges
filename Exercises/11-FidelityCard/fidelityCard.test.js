@@ -20,3 +20,23 @@ test('should return false for 3', () => {
 
   expect(result).toBe(expected);
 });
+
+test('should return false for 50', () => {
+  const input = 50;
+
+  const expected = true; 
+  
+  const result = shouldBuyFidelity(input);
+
+  expect(result).toBe(expected);
+});
+
+test('should return true', () => {
+  const input = 100;
+
+  const expected = true; 
+  
+  const result = shouldBuyFidelity(input);
+
+  expect(result).toBe(expected);
+});
