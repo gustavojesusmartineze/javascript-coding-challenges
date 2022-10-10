@@ -30,3 +30,23 @@ test('should return 7', () => {
 
   expect(result).toBe(expected);
 });
+
+test('should return 7', () => {
+  const input = [9, 5, 1];
+
+  const expected = 2; 
+  
+  const result = getMinJump(input);
+
+  expect(result).toBe(expected);
+});
+
+test('should return 7', () => {
+  const input = [2, 4, 6, 8, 10];
+
+  const expected = 7; 
+  
+  const result = getMinJump(input);
+
+  expect(result).toBe(expected);
+});
