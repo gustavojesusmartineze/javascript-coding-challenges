@@ -4,7 +4,7 @@
   "description": "These exercises will help you prepare for future technical interviews",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --verbose"
   },
   "author": "Gustavo Martínez <gustavomartinez1990@gmail.com>",
   "license": "MIT",
