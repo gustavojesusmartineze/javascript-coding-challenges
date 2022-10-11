@@ -19,6 +19,9 @@ I'll try to add at least one every week.
 - [08-MaxProfit](/Exercises/08-MaxProfit/)
 - [09-GroupBy](/Exercises/09-GroupBy/)
 - [10-GetCoins](/Exercises/10-GetCoins/)
+- [11-FidelityCard](/Exercises/11-FidelityCard/)
+- [12-GetMinJump](/Exercises/12-GetMinJump/)
+- [13-WrapGifts](/Exercises/13-WrapGifts/)
 
 
 **Tests**
