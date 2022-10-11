@@ -40,3 +40,23 @@ test('should return 2', () => {
 
   expect(result).toBe(expected);
 });
+
+test('should return 8', () => {
+  const input = [9, 2, 3, 5, 6, 4, 7, 0, 1];
+
+  const expected = 8; 
+  
+  const result = missingReindeer(input);
+
+  expect(result).toBe(expected);
+});
+
+test('should return 8', () => {
+  const input = [0];
+  // -> 1 (it's the last one that's missing!)
+  const expected = 1; 
+  
+  const result = missingReindeer(input);
+
+  expect(result).toBe(expected);
+});
