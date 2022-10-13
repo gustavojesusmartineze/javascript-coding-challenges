@@ -1,6 +1,6 @@
 
 
-# Decode Number
+# Decode Numbers
 ## Introduction
 Lara Eloft has found some elven remains in a cave, near the Arctic Circle, 8 km north of Rovaniemi.
 
