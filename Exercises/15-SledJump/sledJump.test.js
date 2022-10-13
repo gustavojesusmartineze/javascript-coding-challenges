@@ -40,3 +40,33 @@ test('should return true go up and down strictly case 4', () => {
 
   expect(result).toBe(expected);
 });
+
+test('should return true false: not strictly jump', () => {
+  const input = [2, 4, 4, 6, 2];
+
+  const expected = false; 
+  
+  const result = checkSledJump(input);
+
+  expect(result).toBe(expected);
+});
+
+test('should return true false: false: only go up', () => {
+  const input = [1, 2, 3];
+
+  const expected = false; 
+  
+  const result = checkSledJump(input);
+
+  expect(result).toBe(expected);
+});
+
+test('should return true false: go up and down and up... no good!', () => {
+  const input = [1, 2, 3, 2, 1, 2, 3];
+
+  const expected = false; 
+  
+  const result = checkSledJump(input);
+
+  expect(result).toBe(expected);
+});
