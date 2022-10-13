@@ -1,4 +1,4 @@
-const { decodeNumbers } = require('./decodeNumber');
+const { decodeNumbers } = require('./decodeNumbers');
 const { expect } = require('@jest/globals');
 
 test('should return 3', () => {
