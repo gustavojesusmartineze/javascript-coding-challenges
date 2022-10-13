@@ -22,6 +22,8 @@ I'll try to add at least one every week.
 - [11-FidelityCard](/Exercises/11-FidelityCard/)
 - [12-GetMinJump](/Exercises/12-GetMinJump/)
 - [13-WrapGifts](/Exercises/13-WrapGifts/)
+- [14-MissingReindeer](/Exercises/14-MissingReindeer/)
+- [15-SledJump](/Exercises/15-SledJump/)
 
 
 **Tests**
