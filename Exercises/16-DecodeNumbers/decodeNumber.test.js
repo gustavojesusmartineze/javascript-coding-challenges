@@ -80,3 +80,43 @@ test('should return 49', () => {
 
   expect(result).toBe(expected);
 });
+
+test('should return 300', () => {
+  const input = '!!!';
+
+  const expected = 300;
+  
+  const result = decodeNumbers(input);
+
+  expect(result).toBe(expected);
+});
+
+test('should return 107', () => {
+  const input = '.........!';
+
+  const expected = 107; // 107 (1 + 1 + 1 + 1 + 1 + 1 + 1 - 1 + 100)
+  
+  const result = decodeNumbers(input);
+
+  expect(result).toBe(expected);
+});
+
+test('should return 50', () => {
+  const input = ';!';
+
+  const expected = 50;
+  
+  const result = decodeNumbers(input);
+
+  expect(result).toBe(expected);
+});
+
+test('should return NaN', () => {
+  const input = ';.W';
+
+  const expected = NaN;
+  
+  const result = decodeNumbers(input);
+
+  expect(result).toBe(expected);
+});
