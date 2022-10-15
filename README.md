@@ -24,6 +24,8 @@ I'll try to add at least one every week.
 - [13-WrapGifts](/Exercises/13-WrapGifts/)
 - [14-MissingReindeer](/Exercises/14-MissingReindeer/)
 - [15-SledJump](/Exercises/15-SledJump/)
+- [16-DecodeNumbers](/Exercises/16-DecodeNumbers/)
+- [17-CountPackages](/Exercises/17-CountPackages/)
 
 
 **Tests**
