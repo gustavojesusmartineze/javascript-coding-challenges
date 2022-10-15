@@ -21,7 +21,7 @@ So that we can see it in code, both the array and the two-parameter function to 
 ```
 const carriers = [
   ['dapelu', 5, ['midu', 'jelowing']],
-  ['mid', 2, []],
+  ['midu', 2, []],
   ['jelowing', 2, []]
 ]
 
