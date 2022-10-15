@@ -20,3 +20,14 @@ test('should return file(2) game(1)', () => {
 
   expect(result).toStrictEqual(expected);
 });
+
+test('should return icon(1)(1)', () => {
+  const files = ['file', 'file(1)', 'icon', 'icon(1)', 'icon(1)'];
+
+  // note that the elves already had files with (1)... and they may be repeated!
+  const expected = ['file', 'file(1)', 'icon', 'icon(1)', 'icon(1)(1)']; 
+  
+  const result = fixFiles(files);
+
+  expect(result).toStrictEqual(expected);
+});
