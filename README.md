@@ -26,6 +26,7 @@ I'll try to add at least one every week.
 - [15-SledJump](/Exercises/15-SledJump/)
 - [16-DecodeNumbers](/Exercises/16-DecodeNumbers/)
 - [17-CountPackages](/Exercises/17-CountPackages/)
+- [18-FixFiless](/Exercises/18-FixFiles/)
 
 
 **Tests**
