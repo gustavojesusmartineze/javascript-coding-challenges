@@ -30,3 +30,23 @@ test('should return false', () => {
 
   expect(result).toBe(expected);
 });
+
+test('should return false', () => {
+  const input = 'Esto es una frase larga pero no tiene todas las letras del abecedario';
+
+  const expected = false; 
+  
+  const result = pangram(input);
+
+  expect(result).toBe(expected);
+});
+
+test('should return false case 1', () => {
+  const input = 'De la a a la z, nos faltan letras';
+
+  const expected = false; 
+  
+  const result = pangram(input);
+
+  expect(result).toBe(expected);
+});
