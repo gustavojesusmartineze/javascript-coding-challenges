@@ -27,6 +27,8 @@ I'll try to add at least one every week.
 - [16-DecodeNumbers](/Exercises/16-DecodeNumbers/)
 - [17-CountPackages](/Exercises/17-CountPackages/)
 - [18-FixFiless](/Exercises/18-FixFiles/)
+- [19-CompleteTwoCourses](/Exercises/19-CompleteTwoCourses/)
+- [20-Pangram](/Exercises/20-Pangram/)
 
 
 **Tests**
