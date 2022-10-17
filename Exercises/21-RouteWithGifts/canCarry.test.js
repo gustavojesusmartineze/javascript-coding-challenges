@@ -45,3 +45,25 @@ test('should return false', () => {
 
   expect(result).toBe(expected);
 });
+
+test('should return false case 1', () => {
+  const capacity = 1;
+  const trip = [[2, 3, 8]];
+
+  const expected = false; 
+  
+  const result = canCarry(capacity, trip);
+
+  expect(result).toBe(expected);
+});
+
+test('should return false case 2', () => {
+  const capacity = 2;
+  const trip = [[1, 2, 4], [2, 3, 8]];
+
+  const expected = false; 
+  
+  const result = canCarry(capacity, trip);
+
+  expect(result).toBe(expected);
+});
