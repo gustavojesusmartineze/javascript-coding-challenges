@@ -31,6 +31,8 @@ I'll try to add at least one every week.
 - [20-Pangram](/Exercises/20-Pangram/)
 - [21-RouteWithGifts](/Exercises/21-RouteWithGifts/)
 - [22-CountDecorations](/Exercises/22-CountDecorations/)
+- [23-CanReconfigureFactory](/Exercises/23-CanReconfigureFactory/)
+- [24-CheckIsSameTree](/Exercises/24-CheckIsSameTree/)
 
 
 **Tests**
