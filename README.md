@@ -33,6 +33,7 @@ I'll try to add at least one every week.
 - [22-CountDecorations](/Exercises/22-CountDecorations/)
 - [23-CanReconfigureFactory](/Exercises/23-CanReconfigureFactory/)
 - [24-CheckIsSameTree](/Exercises/24-CheckIsSameTree/)
+- [25-CanMouseEat](/Exercises/25-CanMouseEat/)
 
 
 **Tests**
