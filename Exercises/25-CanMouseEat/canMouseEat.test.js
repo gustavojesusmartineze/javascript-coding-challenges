@@ -26,3 +26,29 @@ describe("first room", () => {
   });
 
 });
+
+describe("second room", () => {
+  const room2 = [
+    ['*', ' ', ' ', ' '],
+    [' ', 'm', '*', ' '],
+    [' ', ' ', ' ', ' '],
+    [' ', ' ', ' ', '*']
+  ];
+
+  test('should return false for left', () => {
+    expect(canMouseEat('up', room2)).toBe(false);
+  });
+
+  test('should return false for down', () => {
+    expect(canMouseEat('down', room2)).toBe(false);
+  });
+
+  test('should return true for right', () => {
+    expect(canMouseEat('right', room2)).toBe(true);
+  });
+
+  test('should return false for left', () => {
+    expect(canMouseEat('left', room2)).toBe(false);
+  });
+});
+
