@@ -1,4 +1,5 @@
 const { daysToXmas } = require('./daysToXmas');
+const { expect } = require('@jest/globals');
 
 test('should return 24 days to xmas', () => {
   const input =  new Date('Dec 1, 2021');

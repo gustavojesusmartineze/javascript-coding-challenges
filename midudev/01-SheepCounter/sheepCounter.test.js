@@ -1,4 +1,5 @@
 const { sheepCounter } = require('./sheepCounter');
+const { expect } = require('@jest/globals');
 
 test('can filter sheeps', () => {
   const sheeps = [

@@ -1,4 +1,5 @@
 const { isValidLetter } = require('./validLetter');
+const { expect } = require('@jest/globals');
 
 test('can check for valid Letter', () => {
   const letter = 'bike car (ball) bike car plush';
