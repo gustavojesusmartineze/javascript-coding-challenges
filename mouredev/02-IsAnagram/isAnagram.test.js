@@ -20,3 +20,24 @@ test('should return false for rat and car', () => {
 
   expect(result).toBe(expected);
 });
+
+test('should return true for anagram and nagaram', () => {
+  const word1 = "anagram";
+  const word2 = "nagaram";
+  const expected = true;
+
+  const result = isAnagram(word1, word2);
+
+  expect(result).toBe(expected);
+});
+
+
+test('should return false for alf and alf', () => {
+  const word1 = "alf";
+  const word2 = "alf";
+  const expected = true;
+
+  const result = isAnagram(word1, word2);
+
+  expect(result).toBe(expected);
+});
