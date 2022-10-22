@@ -37,6 +37,8 @@ I'll try to add at least one every week.
 
 ## mouredev Exercises
 - [01-FizzBuzz](/mouredev/01-FizzBuzz/)
+- [02-IsAnagram](/mouredev/02-IsAnagram/)
+- [03-Fibonacci](/mouredev/03-Fibonacci/)
 
 ## Tests
 
